@@ -1,0 +1,47 @@
+{
+  "uuid": "dae4775e-9ae0-4b09-aadd-f652d1c83647",
+  "name": "Login with valid credentials",
+  "fullName": "Login with valid credentials",
+  "status": "passed",
+  "labels": [
+    {
+      "name": "feature",
+      "value": "FCMS Login"
+    }
+  ],
+  "steps": [
+    {
+      "status": "passed"
+    },
+    {
+      "status": "passed"
+    },
+    {
+      "name": "user navigates to FCMS login page",
+      "status": "passed"
+    },
+    {
+      "name": "user enters valid username and password",
+      "status": "passed"
+    },
+    {
+      "name": "user clicks on login button",
+      "status": "passed"
+    },
+    {
+      "name": "user should be logged in successfully",
+      "status": "passed"
+    },
+    {
+      "name": "user logs out from the application",
+      "status": "passed"
+    },
+    {
+      "name": "user should be logged out successfully",
+      "status": "passed"
+    },
+    {
+      "status": "passed"
+    }
+  ]
+}

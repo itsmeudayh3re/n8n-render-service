@@ -1,0 +1,30 @@
+{
+  "name": "fcms-playwright-bdd",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "@cucumber/cucumber": "^12.6.0",
+    "@playwright/test": "^1.57.0",
+    "allure-commandline": "^2.36.0",
+    "allure-cucumberjs": "^3.4.5",
+    "allure-js-commons": "^3.4.5",
+    "allure-playwright": "^3.4.5",
+    "cucumberjs-allure2-reporter": "^1.3.0",
+    "ts-node": "^10.9.2"
+  },
+  "dependencies": {
+    "dotenv": "^17.2.3"
+  },
+"scripts": {
+  "test": "cucumber-js",
+  "report:convert": "node convert.js",
+  "report:generate": "allure generate allure-results --clean -o allure-report",
+  "report:open": "allure open allure-report"
+}
+
+}

@@ -1,0 +1,15 @@
+module.exports = {
+  hamburgerMenu: 'xpath=//*[@id="hamburger"]/i',
+  timesheetLink: 'xpath=//*[@id="TimesheetLink"]',
+  listView: 'xpath=//*[@id="ListViewLink"]',
+  expeneses: 'xpath=//*[@id="expenseLink"]',
+  saffronTheme: 'xpath=/html/body/div[1]/div/main/div[1]/div[2]/div/div/div[1]',
+  skyBlueTheme: 'xpath=/html/body/div[1]/div/main/div[1]/div[2]/div/div/div[2]',
+  redTheme: 'xpath=/html/body/div[1]/div/main/div[1]/div[2]/div/div/div[3]',
+  greenTheme: 'xpath=/html/body/div[1]/div/main/div[1]/div[2]/div/div/div[4]',
+  purpleTheme: 'xpath=/html/body/div[1]/div/main/div[1]/div[2]/div/div/div[5]',
+  calendarSettings: 'xpath=//*[@id="settings-btn"]',
+  calendarPreviousWeek: 'xpath=//*[@id="prev-week"]',
+  calendarNextWeek: 'xpath=//*[@id="next-week"]',
+  submit: 'xpath=//*[@id="submit-week-btn"]',
+};

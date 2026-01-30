@@ -1,0 +1,39 @@
+{
+  "uuid": "c1b26acd-a3c0-4cfc-abb4-2e5164114441",
+  "name": "Login with invalid credentials",
+  "fullName": "Login with invalid credentials",
+  "status": "passed",
+  "labels": [
+    {
+      "name": "feature",
+      "value": "FCMS Login"
+    }
+  ],
+  "steps": [
+    {
+      "status": "passed"
+    },
+    {
+      "status": "passed"
+    },
+    {
+      "name": "user navigates to FCMS login page",
+      "status": "passed"
+    },
+    {
+      "name": "user enters invalid username and password",
+      "status": "passed"
+    },
+    {
+      "name": "user clicks on login button",
+      "status": "passed"
+    },
+    {
+      "name": "user should see an error message",
+      "status": "passed"
+    },
+    {
+      "status": "passed"
+    }
+  ]
+}
